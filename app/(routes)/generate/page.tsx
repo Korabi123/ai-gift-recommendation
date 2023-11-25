@@ -111,7 +111,7 @@ const GeneratePage = () => {
               <CardHeader>
                 <CardTitle>Generate</CardTitle>
                 <CardDescription>
-                  Generate you gift here. Click generate when you're
+                  Generate you gift here. Click generate when you are
                   done.
                 </CardDescription>
               </CardHeader>
@@ -146,7 +146,7 @@ const GeneratePage = () => {
                             <Input placeholder="Engineer" {...field} />
                           </FormControl>
                           <FormDescription>
-                            This is your selected person's job.
+                            This is your selected persons&apos job.
                           </FormDescription>
                           <FormMessage />
                         </FormItem>
