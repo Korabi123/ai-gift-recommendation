@@ -25,7 +25,7 @@ const Navbar = () => {
         <div className="flex items-center space-x-4">
           <TooltipProvider>
             <Tooltip>
-              <TooltipTrigger className="tracking-tight font-semibold text-lg cursor-pointer text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500">Gifty/AI</TooltipTrigger>
+              <TooltipTrigger className="select-none tracking-tight font-semibold text-lg cursor-pointer text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500">Gifty/AI</TooltipTrigger>
               <TooltipContent className="font-semibold">
                 <p>Gifty/AI Logo</p>
               </TooltipContent>
@@ -45,7 +45,7 @@ const Navbar = () => {
 
       {/* Mobile navbar */}
       <div className="md:hidden flex items-center justify-between">
-        <p className="tracking-tight font-semibold text-lg cursor-pointer text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500">Gifty/AI</p>
+        <p className="select-none tracking-tight font-semibold text-lg cursor-pointer text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500">Gifty/AI</p>
         <Hamburger />
       </div>
     </nav>

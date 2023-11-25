@@ -45,7 +45,6 @@ export function Hamburger() {
             </Accordion>
             <div className="mt-6 flex space-x-6 justify-start">
               <UserButton afterSignOutUrl="/" />
-              
             </div>
           </SheetDescription>
         </SheetHeader>
