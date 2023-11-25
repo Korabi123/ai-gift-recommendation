@@ -146,7 +146,7 @@ const GeneratePage = () => {
                             <Input placeholder="Engineer" {...field} />
                           </FormControl>
                           <FormDescription>
-                            This is your selected persons&apos job.
+                            This is your selected persons job.
                           </FormDescription>
                           <FormMessage />
                         </FormItem>
