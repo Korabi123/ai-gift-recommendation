@@ -162,12 +162,12 @@ const GeneratePage = () => {
                   <div>
                     {isLoading && (
                       <div className="space-y-2 p-8 w-full">
+                        <Skeleton className="h-2 w-[100%]" />
                         <Skeleton className="h-2 w-[70%]" />
-                        <Skeleton className="h-2 w-[40%]" />
-                        <Skeleton className="h-2 w-[60%]" />
+                        <Skeleton className="h-2 w-[80%]" />
                         <Skeleton className="h-2 w-[10%]" />
-                        <Skeleton className="h-2 w-[50%]" />
                         <Skeleton className="h-2 w-[90%]" />
+                        <Skeleton className="h-2 w-[50%]" />
                       </div>
                     )}
                     {messages.length === 0 && !isLoading && (
