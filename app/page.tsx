@@ -11,7 +11,7 @@ export default function Home() {
           The best AI tool for
         </h1>
         <h1 className="pb-2 text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
-          Generating gifts
+          Generating gifts.
         </h1>
         <p className="text-muted-foreground">100% Free no strings attached.</p>
         <Link href="/generate">

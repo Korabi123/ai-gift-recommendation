@@ -14,7 +14,7 @@ const Navbar = () => {;
       <div className="hidden md:flex items-center justify-between">
         <div className="flex items-center space-x-4">
           <Link href='/'>
-            <div className="tracking-tight font-semibold cursor-pointer">gifty/ai</div>
+            <div className="tracking-tight font-semibold text-lg cursor-pointer text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500">Gifty/AI</div>
           </Link>
           <NavbarTooltip />
         </div>
@@ -25,7 +25,7 @@ const Navbar = () => {;
 
       {/* Mobile navbar */}
       <div className="md:hidden flex items-center justify-between">
-        <p className="tracking-tight font-semibold cursor-pointer">gifty/ai</p>
+        <p className="tracking-tight font-semibold text-lg cursor-pointer text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500">Gifty/AI</p>
         <Hamburger />
       </div>
     </nav>

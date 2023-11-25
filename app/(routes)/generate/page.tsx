@@ -99,7 +99,7 @@ const GeneratePage = () => {
   return (
     <div>
       <Navbar />
-      <div className="py-40 px-8 md:flex md:h-full w-full md:justify-center md:py-16">
+      <div className="py-20 px-8 md:flex md:h-full w-full md:justify-center md:py-16">
         <Tabs defaultValue="generate" className="w-full md:w-[400px]">
           <TabsList className="grid w-full grid-cols-2">
             <TabsTrigger value="generate">Generate Gift</TabsTrigger>
