@@ -50,7 +50,7 @@ import { Skeleton } from "@/components/ui/skeleton";
 const formSchema = z.object({
   gender: z.string({
     required_error: "Select a gender."
-  }),
+  }).min(1),
   proffession: z.string().min(4, {
     message: "Proffession must be at least 4 characters"
   }),
